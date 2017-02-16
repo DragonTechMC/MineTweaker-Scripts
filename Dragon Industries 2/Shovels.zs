@@ -1,0 +1,17 @@
+import mods.nei.NEI;
+recipes.removeShaped(<minecraft:wooden_shovel>);
+recipes.removeShaped(<Botania:elementiumShovel>);
+recipes.removeShaped(<Forestry:bronzeShovel>);
+NEI.hide(<Forestry:bronzeShovel>);
+NEI.hide(<Forestry:brokenBronzeShovel>);
+NEI.hide(<Forestry:kitShovel>);
+NEI.hide(<Botania:manasteelShovel>);
+NEI.hide(<MekanismTools:ObsidianShovel>);
+NEI.hide(<MekanismTools:LapisLazuliShovel>);
+NEI.hide(<MekanismTools:OsmiumShovel>);
+NEI.hide(<MekanismTools:GlowstoneShovel>);
+NEI.hide(<MekanismTools:BronzeShovel>);
+NEI.hide(<MekanismTools:SteelShovel>);
+NEI.hide(<Railcraft:tool.steel.shovel>);
+NEI.hide(<appliedenergistics2:item.ToolNetherQuartzSpade>);
+NEI.hide(<appliedenergistics2:item.ToolCertusQuartzSpade>);

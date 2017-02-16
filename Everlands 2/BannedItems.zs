@@ -1,0 +1,10 @@
+recipes.removeShaped(<minecraft:tnt_minecart>);
+<minecraft:tnt_minecart>.addTooltip(format.darkRed("Disabled"));
+recipes.removeShaped(<botania:spawnerMover>);
+<botania:spawnerMover>.addTooltip(format.darkRed("Disabled"));
+recipes.removeShaped(<botania:laputaShard>);
+<botania:laputaShard>.addTooltip(format.darkRed("Disabled"));
+recipes.removeShaped(<minecraft:tnt>);
+<minecraft:tnt>.addTooltip(format.darkRed("Disabled"));
+recipes.removeShaped(<stevescarts:CartModule:49>);
+<stevescarts:CartModule:49>.addTooltip(format.darkRed("Disabled"));

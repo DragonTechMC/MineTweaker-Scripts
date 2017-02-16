@@ -1,0 +1,3 @@
+
+recipes.addShapeless(<TConstruct:heartCanister:5> , [<TConstruct:heartCanister:3>, <extracells:storage.component:3>]);
+recipes.addShaped(<TConstruct:heartCanister:6>, [[<minecraft:nether_star>, <TConstruct:heartCanister:4>, <minecraft:nether_star>], [<TConstruct:heartCanister:4>, <TConstruct:heartCanister:5>, <TConstruct:heartCanister:4>], [<minecraft:nether_star>, <TConstruct:heartCanister:4>, <minecraft:nether_star>]]);

@@ -14,14 +14,19 @@ recipes.addShapeless(<forestry:ingotCopper>,[<agricraft:agri_nugget:4>, <agricra
 // Tin Nuggets
 recipes.addShapeless(<forestry:ingotTin>,[<agricraft:agri_nugget:5>, <agricraft:agri_nugget:5>, <agricraft:agri_nugget:5>, <agricraft:agri_nugget:5>, <agricraft:agri_nugget:5>, <agricraft:agri_nugget:5>, <agricraft:agri_nugget:5>, <agricraft:agri_nugget:5>, <agricraft:agri_nugget:5>]);
 
-recipes.remove(<agricraft:water_channel_normal>);
+// Oak Wood Water Tanks etc.
+
 recipes.addShaped(<agricraft:water_channel_normal>,
 				[[null,null,null],
 				[<minecraft:planks>,null,<minecraft:planks>],
 				[null,<minecraft:planks>,null]]);
-                
-recipes.remove(<agricraft:water_tank>.withTag({agri_material_meta: 0, agri_material: "minecraft:planks"}));
+
 recipes.addShaped(<agricraft:water_tank>.withTag({agri_material_meta: 0, agri_material: "minecraft:planks"}),
 				[[<minecraft:planks>,null,<minecraft:planks>],
 				[<minecraft:planks>,null,<minecraft:planks>],
 				[<minecraft:planks>,<minecraft:planks>,<minecraft:planks>]]);
+                
+            
+recipes.addShaped(<agricraft:water_channel_valve>, 
+                [[<ore:ingotIron>,<minecraft:lever>], 
+                [<agricraft:water_channel_normal>,null]]);

@@ -9,3 +9,7 @@ recipes.removeShaped(<botania:spawnerMover>);
 // EFLN
 recipes.removeShaped(<tconstruct:throwball>);
 <tconstruct:throwball>.addTooltip(format.darkRed("Disabled"));
+
+// Biscuit of Totality
+mods.botania.ManaInfusion.removeRecipe(<botania:manaCookie>);
+<botania:manaCookie>.addTooltip(format.darkRed("Disabled"));

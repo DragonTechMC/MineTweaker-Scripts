@@ -45,9 +45,15 @@ mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 54, <minecraft:rail>, 500);
 mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 144, <minecraft:shield>, 500);
 mods.tconstruct.Smeltery.addMelting(<liquid:bronze> * 144, <forestry:grafter>, 400);
 
+// Steel
 mods.tconstruct.Casting.addBasinRecipe(<chisel:blockSteel>, <liquid:steel> * 1296);
 mods.tconstruct.Smeltery.addMelting(<liquid:steel> * 1296 , <chisel:blockSteel>, 400);
 
+// Compressed Cobblestone
 mods.tconstruct.Smeltery.addMelting(<liquid:stone> * 648 , <extrautils2:compressedcobblestone>, 200);
 mods.tconstruct.Smeltery.addMelting(<liquid:stone> * 5832 , <extrautils2:compressedcobblestone:1>, 300);
 mods.tconstruct.Smeltery.addMelting(<liquid:stone> * 52488 , <extrautils2:compressedcobblestone:2>, 400);
+
+// Lead
+mods.tconstruct.Smeltery.addAlloy(<liquid:lead> * 8, [<liquid:obsidian> * 4, <liquid:iron> * 4]);
+mods.tconstruct.Casting.addBasinRecipe(<chisel:blockLead>, <liquid:lead> * 1296);

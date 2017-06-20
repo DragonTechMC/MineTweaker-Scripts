@@ -11,3 +11,6 @@ recipes.addShaped(<extrautils2:goldenlasso>,
 				[[<ore:ingotGold>,<ore:string>,<ore:ingotGold>],
 				[<ore:string>,null,<ore:string>],
 				[<ore:ingotGold>,<ore:string>,<ore:ingotGold>]]);
+
+// Contract
+<extrautils2:contract>.addTooltip(format.darkRed("Only use on Vanilla looking Villagers"));

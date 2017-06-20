@@ -38,12 +38,12 @@ mods.tconstruct.Smeltery.addMelting(<liquid:gold> * 144, <minecraft:golden_shove
 mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 144, <minecraft:iron_hoe>, 500);
 mods.tconstruct.Smeltery.addMelting(<liquid:gold> * 144, <minecraft:golden_hoe>, 500);
 
-
 // Other
 
 mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 54, <minecraft:rail>, 500);
 mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 144, <minecraft:shield>, 500);
 mods.tconstruct.Smeltery.addMelting(<liquid:bronze> * 144, <forestry:grafter>, 400);
+mods.tconstruct.Smeltery.addMelting(<liquid:blood> * 160, <tconstruct:edible:3>, 200);
 
 // Steel
 mods.tconstruct.Casting.addBasinRecipe(<chisel:blockSteel>, <liquid:steel> * 1296);
@@ -57,3 +57,7 @@ mods.tconstruct.Smeltery.addMelting(<liquid:stone> * 52488 , <extrautils2:compre
 // Lead
 mods.tconstruct.Smeltery.addAlloy(<liquid:lead> * 8, [<liquid:obsidian> * 4, <liquid:iron> * 4]);
 mods.tconstruct.Casting.addBasinRecipe(<chisel:blockLead>, <liquid:lead> * 1296);
+
+// Aluminum
+mods.tconstruct.Smeltery.addAlloy(<liquid:aluminum> * 6, [<liquid:iron> * 2, <liquid:tin> * 4]);
+mods.tconstruct.Casting.addBasinRecipe(<chisel:blockaluminum>, <liquid:aluminum> * 1296);
